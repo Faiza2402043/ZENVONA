@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">ZENVORA</title>
+  <desc id="logo-description">Shop, watch, live, together.</desc>
+  <rect width="768" height="768" fill="#fff"/>
+  <g fill="#b20b19">
+    <path d="M286 171h157q11 0 4 9L236 254q-12 6-17-2-7-11 8-28l33-37q10-10 26-16z"/>
+    <path d="M231 239q31-29 67-12l47 26-37 34-63-31q-25-12-14-17z"/>
+    <path d="M438 190 245 374q-18 17-17 39 1 43 43 43h184q39 0 58-30l33-51h-61l-17 26H311q-20 0-26-12-5-12 8-26l139-132q10-10 10-23v-18z"/>
+    <path d="M451 194q0-15 14-8l52 31q12 7 0 14l-52 31q-14 8-14-8z"/>
+    <path d="m468 207 33 17-33 18z" fill="#fff"/>
+    <path d="m514 158 17-25m17 47 26-17m-12 52 28-2" fill="none" stroke="#b20b19" stroke-linecap="round" stroke-width="15"/>
+    <path d="M375 325h17l8 17h83l-14 41h-59l-12-32h-14l-8-18h-8z"/>
+    <path d="m393 347 6 22h54l8-22z" fill="#fff"/>
+    <circle cx="414" cy="396" r="9"/>
+    <circle cx="458" cy="396" r="9"/>
+  </g>
+  <text x="62" y="556" fill="#b20b19" font-family="Manrope,Arial,sans-serif" font-size="104" font-weight="800" letter-spacing="1" textLength="644" lengthAdjust="spacingAndGlyphs">ZENVORA</text>
+  <g fill="#b20b19" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">
+    <text x="88" y="605" textLength="74" lengthAdjust="spacingAndGlyphs">SHOP</text><circle cx="177" cy="598" r="5"/>
+    <text x="196" y="605" textLength="116" lengthAdjust="spacingAndGlyphs">WATCH</text><circle cx="328" cy="598" r="5"/>
+    <text x="348" y="605" textLength="77" lengthAdjust="spacingAndGlyphs">LIVE</text><circle cx="443" cy="598" r="5"/>
+    <text x="464" y="605" textLength="218" lengthAdjust="spacingAndGlyphs">TOGETHER</text>
+  </g>
+</svg>

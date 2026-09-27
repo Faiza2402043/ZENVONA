@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZENVORA AI - Sign in</title>
+  <link rel="stylesheet" href="css/styles.css?v=7">
+  <script type="module" src="js/login.js?v=2"></script>
+</head>
+<body>
+  <main class="view" style="display:block;max-width:560px;margin:12vh auto;padding:0 24px">
+    <p class="eyebrow">YOUR ZENVORA SPACE</p>
+    <h1 id="login-heading">Come on in.</h1>
+    <p id="login-description">Sign in to continue to your ZENVORA dashboard.</p>
+    <nav class="login-role-links" aria-label="Choose your dashboard sign-in">
+      <a data-role-target="customer" href="login.html?role=customer">Customer</a>
+      <a data-role-target="vendor" href="login.html?role=vendor">Vendor</a>
+      <a data-role-target="admin" href="login.html?role=admin">Admin</a>
+    </nav>
+    <form class="login-form" id="login-form">
+      <label>Email address<input name="email" type="email" autocomplete="email" required></label>
+      <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+      <p id="login-feedback" class="auth-feedback" role="alert"></p>
+      <button class="button button-dark" id="login-submit" type="submit">LOGIN</button>
+    </form>
+    <p id="login-status" class="catalog-message" role="status">Checking your account...</p>
+  </main>
+</body>
+</html>

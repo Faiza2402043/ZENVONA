@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta name="description" content="Discover independent brands, product stories and live shopping on Zenvora.">
+  <title>Zenvora — Where Content Meets Commerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=8">
+  <script type="module" src="js/app.js?v=15"></script>
+</head>
+<body>
+  <div class="announcement"><span>THE NEW WAY TO DISCOVER INDEPENDENT BRANDS</span><span>CONTENT MEETS COMMERCE <b>+</b></span></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Zenvora home"><img src="assets/zenvora-lockup.svg?v=2" alt="Zenvora"></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-link is-active" data-route="home">Discover</button>
+      <button class="nav-link" data-route="shop">Shop</button>
+      <button class="nav-link" data-route="reels">Reels</button>
+      <button class="nav-link" data-route="live">Live <i class="live-dot"></i></button>
+      <button class="nav-link dashboard-nav-link" data-action="workspace">Dashboard</button>
+    </nav>
+    <div class="header-actions">
+      <div class="search-wrap">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Search the good stuff" aria-label="Search products" aria-controls="search-suggestions" aria-expanded="false"><kbd>/</kbd></label>
+        <div id="search-suggestions" class="search-suggestions" role="listbox" aria-label="Product suggestions" hidden></div>
+      </div>
+      <button class="icon-button account-button" data-action="account" aria-label="Open account">ACCOUNT</button>
+      <button class="cart-button" data-action="cart">BAG <span id="cart-count">0</span></button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1">
+    <section class="view" data-view="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark"></span> DISCOVERY, WITH A POINT OF VIEW</p>
+          <h1>Good things<br>find their <em>people.</em></h1>
+          <p class="hero-description">Meet the makers, moments and little-known brands making everyday feel like something.</p>
+          <div class="hero-actions"><button class="button button-dark" data-route="shop">Explore the edit <span>↗</span></button><button class="text-button" data-route="reels">See it in motion <span>↗</span></button></div>
+          <div class="hero-note"><span class="avatars"><b>J</b><b>M</b><b>A</b></span><span>GOOD FINDS, FROM <strong>2,400+ MAKERS</strong></span></div>
+        </div>
+        <div class="hero-art" aria-label="Curated collection of independent lifestyle products">
+          <img class="hero-image" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=85" alt="Sculptural red running shoe against a vivid red backdrop">
+          <div class="hero-sticker">THE<br>GOOD<br>FIND <span>NO. 014</span></div>
+          <div class="hero-caption"><span>01 / A LITTLE COLOR GOES A LONG WAY</span><b>Find your everyday icon <span>↗</span></b></div>
+          <div class="hero-index">CURATED<br>FOR YOU <span>↓</span></div>
+        </div>
+      </section>
+      <div class="ticker" aria-label="Shop independent, discover something new"><div>SHOP INDEPENDENT <span>✳</span> DISCOVER SOMETHING NEW <span>✳</span> MEET YOUR NEXT FAVORITE <span>✳</span> SHOP INDEPENDENT <span>✳</span></div></div>
+      <section class="section category-section">
+        <div class="section-heading"><div><p class="eyebrow">A GOOD PLACE TO START</p><h2>Find your <em>kind of thing.</em></h2></div><button class="arrow-link" data-route="shop">All categories <span>↗</span></button></div>
+        <div id="category-list" class="category-list"></div>
+      </section>
+      <section class="section product-section">
+        <div class="section-heading"><div><p class="eyebrow">A FEW THINGS WE LOVE</p><h2>The current <em>shortlist.</em></h2></div><button class="arrow-link" data-route="shop">Shop all finds <span>↗</span></button></div>
+        <div id="home-products" class="product-grid"></div>
+      </section>
+      <section class="reel-band"><div class="reel-band-copy"><p class="eyebrow">A GOOD FIND IS BETTER IN MOTION</p><h2>See the story.<br><em>Shop the moment.</em></h2><button class="button button-light" data-route="reels">Take a look <span>↗</span></button></div><div id="home-reels" class="home-reels"></div></section>
+      <section class="section live-preview-section"><div class="section-heading"><div><p class="eyebrow">HAPPENING RIGHT NOW</p><h2>Meet us <em>in the moment.</em></h2></div><button class="arrow-link" data-route="live">All live rooms <span>↗</span></button></div><div id="home-live" class="live-grid"></div></section>
+      <section class="maker-strip"><div class="maker-photo"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85" alt="Carefully styled independent fashion pieces"></div><div class="maker-copy"><p class="eyebrow">SMALL LABEL. BIG FEELING.</p><h2>Good things<br>come from <em>somewhere.</em></h2><p>Every find has a maker behind it. Get to know the people putting a little more thought into the things you bring home.</p><button class="text-button" data-action="account">Meet the makers <span>↗</span></button></div><span class="maker-index">Z / COMMUNITY, NOT A CATALOG</span></section>
+    </section>
+    <section class="view" data-view="shop" hidden><div class="page-intro"><p class="eyebrow">THE GOOD-FIND DEPARTMENT</p><h1>Shop the <em>shortlist.</em></h1><p>Thoughtful things from people worth knowing.</p></div><div class="shop-toolbar"><div id="shop-categories" class="filter-list" aria-label="Filter by category"></div><label class="sort-control">SORT BY <select id="sort-select" aria-label="Sort products"><option value="featured">Featured</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="rating">Top rated</option></select></label></div><div id="shop-products" class="product-grid"></div><p id="shop-empty" class="empty-state" hidden>No finds in this edit yet. Try another category or search.</p></section>
+    <section class="view" data-view="reels" hidden><div class="page-intro page-intro-row"><div><p class="eyebrow">GOOD FINDS, IN THEIR ELEMENT</p><h1>Stories worth <em>stopping for.</em></h1><p>Discover maker picks, product details and shoppable finds.</p></div><span class="demo-tag" id="reels-mode-label">REELS</span></div><div id="reels-feed" class="reels-feed"></div></section>
+    <section class="view" data-view="live" hidden><div class="page-intro page-intro-row"><div><p class="eyebrow">COME ON IN</p><h1>Happening <em>right now.</em></h1><p>Explore a featured find, chat with the maker and shop the room.</p></div><span class="demo-tag" id="live-mode-label">LIVE SHOPPING</span></div><div id="live-rooms" class="live-grid live-page-grid"></div></section>
+    <section class="view" data-view="workspace" hidden><div id="workspace-content"></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><a class="wordmark footer-logo" href="#home" aria-label="Zenvora home"><img src="assets/zenvora-logo.svg?v=4" alt="Zenvora. Shop, watch, live, together."></a><p>Where content meets commerce.<br>Made for the things that stay with you.</p><button class="button button-light" data-action="account">Become a maker <span>↗</span></button></div><div class="footer-bottom"><span>© 2026 ZENVORA. GOOD FINDS, GOOD PEOPLE.</span><span>DEMO STORE · NO REAL PAYMENTS</span><a href="README.md">HOW THIS DEMO WORKS ↗</a></div></footer>
+  <div id="modal-root"></div><div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

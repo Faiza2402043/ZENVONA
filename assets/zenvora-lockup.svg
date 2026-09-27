@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 100" role="img" aria-labelledby="lockup-title">
+  <title id="lockup-title">Zenvora</title>
+  <g fill="#b20b19">
+    <path d="M8 17h55L39 36h27L55 54H7l19-14H2z"/>
+    <path d="M58 5a8 8 0 0 1 8-8h10a9 9 0 0 1 9 9v10a9 9 0 0 1-9 9H66a8 8 0 0 1-8-8z" transform="translate(-1 4)"/>
+    <path d="m65 8 13 7.5L65 23z" fill="#fff"/>
+    <path d="m52 49-5-4-3 4 5 4h6l6 13h22l7-16H58l-2-5h-8z"/>
+    <path d="M58 54h26l-4 9H62z" fill="#fff"/>
+    <circle cx="64" cy="69" r="3.5"/><circle cx="79" cy="69" r="3.5"/>
+  </g>
+  <text x="101" y="56" fill="#b20b19" font-family="Manrope,Arial,sans-serif" font-size="45" font-weight="800" letter-spacing="1">ZENVORA</text>
+</svg>
